@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CharStringInMethods", "Char
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CharStringInMethods_WithRestrictionInOneSymbol", "CharStringInMethods_WithRestrictionInOneSymbol\CharStringInMethods_WithRestrictionInOneSymbol.csproj", "{0BA4955E-E0E9-4458-84CE-1B300F7D396C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindingIndex", "FindingIndex\FindingIndex.csproj", "{D7B53922-113B-4ED8-BA74-5FC4154235E4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{0BA4955E-E0E9-4458-84CE-1B300F7D396C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0BA4955E-E0E9-4458-84CE-1B300F7D396C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0BA4955E-E0E9-4458-84CE-1B300F7D396C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7B53922-113B-4ED8-BA74-5FC4154235E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7B53922-113B-4ED8-BA74-5FC4154235E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7B53922-113B-4ED8-BA74-5FC4154235E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7B53922-113B-4ED8-BA74-5FC4154235E4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
