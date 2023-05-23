@@ -12,19 +12,18 @@ namespace ChangingSizeInArray
     public class Program
     {
         static void Resize<T>(ref  T[] array, int newSize) // вместо Int пишем T это generic
-        {
+        {                                   // generic по сути дает работать с любыми типами данных, не только с int
             T[] newArray = new T[newSize];
 
             for (int i = 0; i < array.Length && i < newArray.Length; i++)
-            {
                 newArray[i] = array[i];
-            }
+            
 
             array = newArray;
         }
         static void Main(string[] args)
         {
-           // int[] arr = { 1, 4, 6 };
+            //int[] arr = { 1, 4, 6 };
             string[] strArray = { "test", "hello", "world" };
 
             Resize(ref strArray, 10);
