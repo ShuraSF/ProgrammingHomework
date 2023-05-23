@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CharStringInMethods_WithRes
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FindingIndex", "FindingIndex\FindingIndex.csproj", "{D7B53922-113B-4ED8-BA74-5FC4154235E4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChangingSizeInArray", "ChangingSizeInArray\ChangingSizeInArray.csproj", "{15578CD5-C6F8-48F1-9D3A-39C28A000E2C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChangingSizeInArray", "ChangingSizeInArray\ChangingSizeInArray.csproj", "{15578CD5-C6F8-48F1-9D3A-39C28A000E2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodToAddMethodsInTwoWays", "MethodToAddMethodsInTwoWays\MethodToAddMethodsInTwoWays.csproj", "{EFB4D09A-041E-4BE4-82AB-1C30A37E07FB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{15578CD5-C6F8-48F1-9D3A-39C28A000E2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{15578CD5-C6F8-48F1-9D3A-39C28A000E2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{15578CD5-C6F8-48F1-9D3A-39C28A000E2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFB4D09A-041E-4BE4-82AB-1C30A37E07FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFB4D09A-041E-4BE4-82AB-1C30A37E07FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFB4D09A-041E-4BE4-82AB-1C30A37E07FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFB4D09A-041E-4BE4-82AB-1C30A37E07FB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
